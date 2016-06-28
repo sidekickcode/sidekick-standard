@@ -1,0 +1,21 @@
+{
+    "analyser": "sidekick-standard",
+    "version": "0.0.1",
+    "interpreter": "node",
+    "script": "index.js",
+    "scope": "blob",
+    "category": "object",
+    "tagger": false,
+    "configurable": true,
+    "configFiles": [],
+    "shortName": "standard",
+    "displayColor": "teal",
+    "language": "js",
+    "displayName": "Code issues (standard)",
+    "displayCategory": "quality",
+    "shortDescription": "Checks your code for quality issues.",
+    "underlyingAnalyser": {
+      "name": "standard",
+      "url" : "http://standardjs.com/"
+    }
+}
