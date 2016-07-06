@@ -38,7 +38,7 @@ describe('standard analyser', function() {
 
       ss._testRun(content)
         .then((results) => {
-          expect(results[0].length).to.eventually.equal(52);
+          expect(results.length).to.eventually.equal(52);
         })
     });
 

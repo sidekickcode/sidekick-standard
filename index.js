@@ -59,7 +59,8 @@ function run(content) {
         reject(err);
       }
 
-      resolve(result.results.map(format));
+      const formattedResults = result.results.map(format);
+      resolve(formattedResults[0]); //we passed single file contents, so all errors are per-file
     });
   });
 }
