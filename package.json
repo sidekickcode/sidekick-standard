@@ -1,6 +1,6 @@
 {
   "name": "sidekick-standard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sidekick analyser that wraps 'standard'.",
   "keywords": [
     "javascript",
