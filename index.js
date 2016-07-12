@@ -71,8 +71,8 @@ function format(error) {
     return {
       analyser: annotationDefaults.analyserName,
       location: {
-        startLine: error.line,
-        endLine: error.line,
+        startLine: error.line - 1,  //standard is 1 based :-|
+        endLine: error.line -1,
         startCharacter: error.column,
         endCharacter: error.column,
       },
